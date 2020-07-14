@@ -21,5 +21,16 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
-  
+  badge = []
+  attendees.each do |attendee|
+    badge << "Hello, my name is #{attendee}."
+  end
+  room_assignments = []
+  counter = 1 
+  attendees.each_with_index do |attendee|
+    room_assignments << "Hello, #{attendee}! You'll be assigned to room #{counter}!"
+    counter += 1 
+  end
+  puts badge
+  puts room_assignments
 end
