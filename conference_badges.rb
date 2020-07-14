@@ -22,6 +22,6 @@ end
 
 def printer (attendees)
   batch_badge_creator (attendees).each do |attendee|
-    puts badge
+    puts "Hello, my name is #{attendee}."
   end
 end
