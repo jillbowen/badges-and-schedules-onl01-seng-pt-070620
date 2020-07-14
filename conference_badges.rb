@@ -21,8 +21,8 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
-  batch_badge_creator (attendees).each do |attendees|
-    puts batch_badge_creator
+  batch_badge_creator (attendees).each do |attendee|
+    puts "Hello, my name is #{attendee}."
     line.chomp
   end
 end
