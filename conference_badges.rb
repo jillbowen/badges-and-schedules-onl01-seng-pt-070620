@@ -26,7 +26,6 @@ def printer (attendees)
     puts badge
   end
   room_assignments(attendees).each do |assignment|
-    binding.pry 
-    puts assignment
+    binding.pry
   end
 end
