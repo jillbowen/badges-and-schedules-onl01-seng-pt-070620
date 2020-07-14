@@ -2,12 +2,8 @@ def badge_maker (name = "Arel")
   return "Hello, my name is #{name}." 
 end
 
-def batch_badge_creator (badges = attendees)
-  (attendees)
-  attendees.each do |attendee|
-    puts "Hello, my name is #{attendee}."
-  end
-  return badges
+def batch_badge_creator (attendees)
+    return "Hello, my name is #{attendee}."
 end
 
 
