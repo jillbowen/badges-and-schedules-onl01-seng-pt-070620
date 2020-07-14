@@ -31,6 +31,6 @@ def printer (attendees)
     room_assignments << "Hello, #{attendee}! You'll be assigned to room #{counter}!"
     counter += 1 
   end
-  print badge
-  print room_assignments
+  puts badge.chomp
+  puts room_assignments.chomp
 end
