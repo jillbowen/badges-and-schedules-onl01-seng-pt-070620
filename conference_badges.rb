@@ -9,7 +9,3 @@ def batch_badge_creator (badges)
   end
   return badges
 end
-
-assign_rooms
-
-end
