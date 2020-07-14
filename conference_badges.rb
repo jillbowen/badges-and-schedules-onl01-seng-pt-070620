@@ -26,3 +26,5 @@ def printer (attendees)
     binding.pry 
   end
 end
+
+
