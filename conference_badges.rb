@@ -22,9 +22,11 @@ end
 
 def printer (attendees)
   batch_badge_creator (attendees).each do |attendees|
-    puts batch_badge_creator 
+    puts batch_badge_creator
+    line.chomp
   end
   assign_rooms (attendees).each do |attendees|
     puts assign_rooms
+    line.chomp
   end
 end
