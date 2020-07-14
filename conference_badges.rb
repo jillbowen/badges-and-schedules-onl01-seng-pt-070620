@@ -20,6 +20,8 @@ def assign_rooms (attendees)
   return room_assignments
 end
 
+require "pry"
+
 def printer (attendees)
   batch_badge_creator (attendees).each do |attendee|
     puts b
