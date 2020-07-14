@@ -25,8 +25,4 @@ def printer (attendees)
     puts batch_badge_creator
     line.chomp
   end
-  assign_rooms (attendees).each do |attendees|
-    puts assign_rooms
-    line.chomp
-  end
 end
