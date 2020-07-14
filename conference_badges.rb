@@ -32,5 +32,5 @@ def printer (attendees)
     counter += 1 
   end
   print badge.chomp
-  print room_assignments
+  print room_assignments.chomp
 end
